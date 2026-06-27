@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campeonato Cearense de Street Workout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-container">
+            <a href="#" class="logo-link">
+                <img src="logo-cearense.jpg" alt="Campeonato Cearense de Street Workout" class="logo-img">
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <a href="#sobre">Sobre</a>
+                <a href="#categorias">Categorias</a>
+                <a href="#inscricao">Inscrição</a>
+                <a href="#local">Local</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScwbToL837U9-A6Q0hh2z5lVo5ORaUNYd5zOwkdZDYS8hykUQ/viewform?usp=publish-editor target="_blank" class="btn-mobile-only">Inscreva-se</a>
+            </nav>
+
+            <div class="header-action">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScwbToL837U9-A6Q0hh2z5lVo5ORaUNYd5zOwkdZDYS8hykUQ/viewform?usp=publish-editor" target="_blank" class="btn-primary-sm">Inscrições</a>
+                
+                <button class="menu-toggle" id="menuToggle" aria-label="Abrir Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="badge">O Maior do Estado</span>
+            <h1>CAMPEONATO CEARENSE <br><span class="highlight">STREET WORKOUT</span></h1>
+            <p>Força, controle e gravidade zero. Os melhores atletas do Ceará reunidos na busca pelo título estadual de calistenia.</p>
+            
+            <div class="hero-buttons">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScwbToL837U9-A6Q0hh2z5lVo5ORaUNYd5zOwkdZDYS8hykUQ/viewform?usp=publish-editor" target="_blank" class="btn-primary-lg">Garantir Minha Vaga</a>
+                <!-- BOTÃO ORIGINAL COM A FUNÇÃO DE BAIXAR DOIS ARQUIVOS -->
+                <a href="#" class="btn-secondary-lg" id="btnRegulamento">Baixar Regulamento</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="about-section">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>A Arena dos <br><span class="highlight">Melhores Atletas</span></h2>
+                <p>O Campeonato Cearense de Street Workout é o palco oficial para quem domina as barras. Uma competição criada de atletas para atletas, focada em elevar o nível técnico da nossa região e premiar a verdadeira dedicação.</p>
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <span class="stat-number">3</span> <!-- ALTERADO DE 4 PARA 3 -->
+                        <span class="stat-label">Categorias</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number">Em Breve</span>
+                        <span class="stat-label">Em Prêmios</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-info-card">
+                <div>
+                    <h3>Informações Rápidas</h3>
+                    <p>Fique atento à data limite para não perder a pesagem oficial.</p>
+                </div>
+                <div class="info-footer">
+                    <div class="info-item">
+                        <span class="info-label">Data</span>
+                        <span class="info-value">25 Julho 2026</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Local</span>
+                        <span class="info-value">Fortaleza - CE</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="categorias" class="categories-section">
+        <div class="categories-container">
+            <div class="categories-header">
+                <h2>Escolha sua Batalha</h2>
+                <p>Categorias separadas para garantir competitividade justa e dar espaço tanto para iniciantes quanto para a elite.</p>
+            </div>
+
+            <div class="categories-grid">
+                <!-- CATEGORIA 1: GERAL -->
+                <div class="category-card">
+                    <div class="card-number">01</div>
+                    <h3>Geral</h3>
+                    <p>Teste o limite da sua força</p>
+                </div>
+
+                <!-- CATEGORIA 2: ELITE / AVANÇADO (MANTIDA) -->
+                <div class="category-card active-card">
+                    <div class="card-number">02</div>
+                    <h3>Elite / Avançado</h3>
+                    <p>Onde o bicho pega. Estáticos pesados (Full Planche, Hefesto) e dinâmicos de alto risco.</p>
+                </div>
+
+                <!-- CATEGORIA 3: FEMININO -->
+                <div class="category-card">
+                    <div class="card-number">03</div>
+                    <h3>Feminino</h3>
+                    <p>Para atletas mulheres, com espaço para demonstrar toda técnica, força e beleza dos movimentos.</p>
+                </div>
+
+                <!-- CATEGORIA ANTIGA REMOVIDA COMPLETAMENTE -->
+            </div>
+        </div>
+    </section>
+
+    <section id="inscricao" class="registration-section">
+        <div class="registration-container">
+            <div class="registration-header">
+                <h2>Como se <span class="highlight">Inscrever</span></h2>
+                <p>Siga os passos abaixo para garantir sua vaga na arena oficial do Street Workout cearense.</p>
+            </div>
+            
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number-badge">1</div>
+                    <h3>Preencha o Formulário</h3>
+                    <p>Clique no botão abaixo e insira seus dados cadastrais, equipe e escolha sua categoria oficial.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number-badge">2</div>
+                    <h3>Faça o Pagamento</h3>
+                    <p>Realize o pagamento da taxa de inscrição através da chave PIX oficial gerada no formulário.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number-badge">3</div>
+                    <h3>Confirmação</h3>
+                    <p>Anexe o comprovante direto no Google Forms. Pronto! Seu nome irá para a lista de pesagem.</p>
+                </div>
+            </div>
+
+            <div class="registration-action-btn">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScwbToL837U9-A6Q0hh2z5lVo5ORaUNYd5zOwkdZDYS8hykUQ/viewform?usp=publish-editor" target="_blank" class="btn-primary-lg">Ir para o Formulário de Inscrição</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Campeonato Cearense de Street Workout. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const navMenu = document.getElementById('navMenu');
+        const btnRegulamento = document.getElementById('btnRegulamento');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('open');
+            menuToggle.classList.toggle('active');
+        });
+
+        // Fecha o menu ao clicar em qualquer link interna dele
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('open');
+                menuToggle.classList.remove('active');
+            });
+        });
+
+        // FUNÇÃO PARA BAIXAR OS DOIS REGULAMENTOS AO CLIQUE
+        btnRegulamento.addEventListener('click', function(e) {
+            e.preventDefault(); // Impede que saia da página
+
+            // AQUI VOCÊ COLA OS LINKS DOS SEUS DOIS ARQUIVOS
+            const arquivo1 = 'https://drive.google.com/file/d/1GJEDBk_eNHPZvEZvdItOaF2ET8hldjac/view?usp=drivesdk';
+
+            // Dispara o download dos dois arquivos
+            const a1 = document.createElement('a');
+            a1.href = arquivo1;
+            a1.download = 'Regulamento_Geral.pdf'; // Nome que vai salvar no computador
+            document.body.appendChild(a1);
+            a1.click();
+            document.body.removeChild(a1);
+
+            const a2 = document.createElement('a');
+            a2.href = arquivo2;
+            a2.download = 'Regulamento_Categorias.pdf'; // Nome que vai salvar no computador
+            document.body.appendChild(a2);
+            a2.click();
+            document.body.removeChild(a2);
+        });
+    </script>
+</body>
+</html>
